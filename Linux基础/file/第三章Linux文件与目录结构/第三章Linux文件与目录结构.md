@@ -1,4 +1,4 @@
-# 第三章Linux文件与目录结构
+# 第三章 Linux文件与目录结构
 
 ## 3.1 Linux 文件
 
@@ -6,7 +6,7 @@ Linux 系统中一切皆文件。
 
 ## 3.2 Linux 目录结构
 
-![img.png](img.png)
+![img.png](picture/img.png)
 
 Linux 目录结构简介：
 
