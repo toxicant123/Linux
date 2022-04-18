@@ -39,7 +39,7 @@ cd /root/
 |  shift+g(G)   |        移动到页尾         |
 |  数字+shift+g   |        移动到目标行        |
 
-![img.png](img.png)
+![img.png](picture/img.png)
 
 ## 4.4 编辑模式
 
@@ -90,23 +90,4 @@ cd /root/
 
 ## 4.6 模式间转换
 
-![img_1.png](img_1.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![img_1.png](picture/img_1.png)
