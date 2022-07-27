@@ -41,3 +41,29 @@
 思考：对比用MySQL，使用MongoDB更有哪些优势？
 
 答：相对MySQL，可以以更低的成本解决问题（包括学习、开发、运维等成本）
+
+## 1.2 MongoDB简介
+
+MongoDB是一个开源、高性能、无模式的文档型数据库，当初的设计就是用于简化开发和方便扩展，是NoSQL数据库产品中的一种。是最像关系型数据库（MySQL）的非关系型数据库。
+
+它支持的数据结构非常松散，是一种类似于 JSON 的 格式叫BSON，所以它既可以存储比较复杂的数据类型，又相当的灵活。
+
+MongoDB中的记录是一个文档，它是一个由字段和值对（field:value）组成的数据结构。MongoDB文档类似于JSON对象，即一个文档认为就是一个对象。字段的数据类型是字符型，它的值除了使用基本的一些类型外，还可以包括其他文档、普通数组和文档数组。
+
+## 1.3 体系结构
+
+MySQL和MongoDB对比
+
+![img.png](img.png)
+
+|  SQL术语/概念   | MongoDB术语/概念 |          解释/说明          |
+|:-----------:|:------------:|:-----------------------:|
+|  database   |   database   |           数据库           |
+|    table    |  collection  |         数据库表/集合         |
+|     row     |   document   |        数据记录行/文档         |
+|   column    |    field     |         数据字段/域          |
+|    index    |    index     |           索引            |
+| table joins |              |     表连接,MongoDB不支持      |
+|             |     嵌入文档     |  MongoDB通过嵌入式文档来替代多表连接  |
+| primary key | primary key  | 主键,MongoDB自动将_id字段设置为主键 |
+
