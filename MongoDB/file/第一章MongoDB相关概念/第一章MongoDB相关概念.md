@@ -54,7 +54,7 @@ MongoDB中的记录是一个文档，它是一个由字段和值对（field:valu
 
 MySQL和MongoDB对比
 
-![img.png](img.png)
+![img.png](picture/img.png)
 
 |  SQL术语/概念   | MongoDB术语/概念 |          解释/说明          |
 |:-----------:|:------------:|:-----------------------:|
@@ -98,7 +98,6 @@ BSON数据类型参考列表：
 
 提示：
 shell默认使用64位浮点型数值。{“x”：3.14}或{“x”：3}。对于整型值，可以使用NumberInt（4字节符号整数）或NumberLong（8字节符号整数），{“x”:NumberInt(“3”)}{“x”:NumberLong(“3”)}
-
 
 ## MongoDB的特点
 
